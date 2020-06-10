@@ -2,15 +2,15 @@
 #ayuda/técnico 
 ## Desactivar las copias “time Machine” locales del portátil
 [Faq-Mac (fuente)](http://www.faq-mac.com/2017/02/desactivar-las-copia-de-seguridad-locales-de-time-machine-en-portatiles/)
-*Ha dejado de funcionar en High Sierra para adelante*
-Para ello abre el Terminal y usa el comando:
-sudo tmutil disablelocal
-para reactivarlas usa:
-sudo tmutil enablelocal
-Para determinar su tamaño podemos usar el comando:
-sudo du -h /.MobileBackups/
-y para eliminarla:
-sudo rm -rfv /.MobileBackups/
+*Ha dejado de funcionar en High Sierra para adelante*  
+Para ello abre el Terminal y usa el comando:  
+sudo tmutil disablelocal  
+para reactivarlas usa:  
+sudo tmutil enablelocal  
+Para determinar su tamaño podemos usar el comando:  
+sudo du -h /.MobileBackups/  
+y para eliminarla:  
+sudo rm -rfv /.MobileBackups/  
 A veces está dentro de la carpeta /Volumes/.MobileBackup o un nombre extraño (mira dentro)
 - - - -
 ## Cambiar la extensión y la localización de las Capturas de Pantalla
