@@ -2,6 +2,7 @@
 #ayuda/técnico 
 ## Desactivar las copias “time Machine” locales del portátil
 [Faq-Mac (fuente)](http://www.faq-mac.com/2017/02/desactivar-las-copia-de-seguridad-locales-de-time-machine-en-portatiles/)
+*Ha dejado de funcionar en High Sierra para adelante*
 Para ello abre el Terminal y usa el comando:
 sudo tmutil disablelocal
 para reactivarlas usa:
